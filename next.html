@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stats</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<p class="counter"> The number of times Embed Github has been clicked: <span class="fonto" id="vemo"></span> </p>
+
+<script>
+    console.log(localStorage.getItem("count_click"));
+        const poi = window.localStorage.getItem("count_click");
+    document.getElementById("vemo").innerHTML = poi.valueOf()
+</script>
+
+<p class="counter"> The number of times Embed Github has been clicked: <span class="not_fonto" id="not_vemo"></span> </p>
+
+<script>
+    console.log(localStorage.getItem("not_count_click"));
+    const not_poi = window.localStorage.getItem("not_count_click");
+    document.getElementById("not_vemo").innerHTML = not_poi.valueOf()
+</script>
+
+<script>
+</script>
+
+
+<div class="github-card" data-github="hameddavoudabadi/react_json" data-width="400" data-height="153" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+
+</body>
+</html>

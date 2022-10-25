@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_app.css" />
+    <title>React</title>
+</head>
+<body>
+<div class="container">
+    <h1>React App</h1>
+    <p>
+    </p>
+    <div class="welcome-back"></div>
+
+</div>
+
+<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" src="like_button.js"></script>
+<script type="text/babel" src="CoolButton.js"></script>
+<script src="app2.js"></script>
+
+<p class="counter"> The number of times Embed Github has been clicked: <span id="vemo"></span> </p>
+
+<script>
+    console.log(localStorage.getItem("count_click"));
+    const poi = window.localStorage.getItem("count_click");
+    document.getElementById("vemo").innerHTML = poi.valueOf()
+</script>
+
+<p class="counter"> The number of times Embed Github has been clicked: <span class="not_fonto" id="not_vemo"></span> </p>
+
+<script>
+    console.log(localStorage.getItem("not_count_click"));
+    const not_poi = window.localStorage.getItem("not_count_click");
+    document.getElementById("not_vemo").innerHTML = not_poi.valueOf()
+</script>
+
+<script type="text/babel">
+    ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+</script>
+<script>
+</script>
+
+<div id="root"></div>
+</body>
+</html>

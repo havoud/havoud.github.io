@@ -1,216 +1,579 @@
 <!DOCTYPE HTML>
-<html lang=""en>
+<html lang="en">
 <head>
-	<meta charset = "UTF-8">
-	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hamed's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamed's Portfolio</title>
     <!-- CSS -->
-	<link rel="stylesheet" href="style.css" />
-	<!-- CSS  -->
-	<link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="css.css"/>
+    <!-- CSS  -->
+    <!-- Using Font Awesome for Uploading Linkedin and Github logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="all.min.css" /> -->
+    <!-- Sectioning the page - Section-by-Section-Full-Screen-Scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
+
 </head>
 <body>
-<div class="print-area">
-		<div class="header">
-			<img src="pic.jpg">
-			<div class="header-text">
-				<h1>Hamed Davoudabadi</h1>
-				<p>Data Analyst and AWS Certified Cloud Practitioner</p>
-			</div>
-		</div>
-		<div class="content">
-			<div class="left-area">
-				<div class="contact">
-					<h4>Contact</h4>
-					<h5>Phone</h5>
-					<p>+358 504687481</p>
-					<h5>Email</h5>
-					<p>h.davoudy@gmail.com</p>
-					<h5>Location</h5>
-					<p>Espoo, Finland</p>
-				</div>
-				<div class="certificates">
-					<h1>Certificates</h1>
-					<ul>
-						<li><div onclick="myFunc()">AWS Certified Cloud Practitioner </div>
-							<script src="code.js"></script>
-						</li>
-						<li><div onclick="google()">Google Data Analytics Professional </div>
-							<script src="code.js"></script>
-						</li>
-						<li><div onclick="Tableau()">Data Visualization with Tableau </div>
-							<script src="code.js"></script>
-						</li>
-						<li><div onclick="sql()">SQL for Data Science </div>
-							<script src="code.js"></script>
-						</li>
-					</ul>
 
-				</div>
-				<div class="skills">
-					<h1>Technical Skills</h1>
-					<div class = "bars">
-						<div class="bar">
-							<p>Python</p>
-							<span></span>
-						</div>
-						<div class="bar">
-							<p>HTML/CSS</p>
-							<span></span>
-						</div>
-						<div class="bar">
-							<p>JavaScript</p>
-							<span></span>
-						</div>
-						<div class="bar">
-							<p>AWS</p>
-							<span></span>
-						</div>
-						<div class="bar">
-							<p>SQL</p>
-							<span></span>
-						</div>
-						<div class="bar">
-							<p>Tabeau</p>
-							<span></span>
-						</div>
-					</div>
-				</div>
-				<div class="follow">
-					<h1>Follow Me</h1>
-					<h4><a href="https://www.linkedin.com/in/hamed-davoudabadi-a5613453/" class="social-icon si-rounded si-small si-linkedin">Linkedin</a></h4>
-					<p> </p>
-					<h4><a href="https://www.linkedin.com/in/hamed-davoudabadi-a5613453/">Github</a></h4>
-					<p></p>
-				</div>
-				<div class="skill2">
-					<h1>Skills</h1>
-					<ul>
-						<li>Data Analysis</li>
-						<li>Relational Databases</li>
-						<li>Statistical Modeling</li>
-						<li>Analytical Thinking</li>
-						<li>Data Processing</li>
-						<li>Data Visualization</li>
-						<li>Troubleshooting</li>
-						<li>Teamworking</li>
-						<li>Curiosity and Creativity</li>
-						<li>Maintaining Confidentiality</li>
-					</ul>
-				</div>
-				<div class="languages">
-					<h1>Languages</h1>
-					<ul>
-						<li>English: Fluent</li>
-						<li>Finnish: Basic</li>
-						<li>Persian: Native</li>
-					</ul>
-				</div>
-			</div>
-
-
-			<div class="right-area">
-				<div class="about">
-					<h1><span><i class="far fa-user"></i> </span>About Me</h1>
-					<p>I have more than 10 years of experiences in transportation planning, and
-						data analyst fields. Most of my responsibilities were related to a
-						combination of modeling, optimizing, and planning. I was involved in data
-						collection, data processing, statistical data analysis for finding
-						patterns and trends, drawing conclusions, and planning for the future. </p>
-				</div>
-				<div class="work">
-					<h1><span><i class="fas fa-suitcase-rolling"></i> </span>Work Exprience</h1>
-					<div class="work-group">
-						<h3>Software Developer Trainee</h3>
-						<h4>Solibri Oy, Helsinki, Finland</h4>
-						<span>2022/06 - Present</span>
-						<p>Achieving the skills and capabilities to be able to do the development
-						 and being able to maintain software, and participating in its planning and
-						 documentation.</p>
-					</div>
-					<div class="work-group">
-						<h3>Data Analyst and Research Assistant</h3>
-						<h4>Sharif University of Technology, Iran</h4>
-						<span>2020/11 - 2021/06</span>
-						<p>• Worked with NASA’s big dataset to extract information, and discover
-							formats and patterns of daily climatic historical variables with
-							millions of rows by using R.</p>
-						<p>• Converted data into actionable insights by predicting and modeling
-							future outcomes for cities vulnerable to the adverse impacts of climate
-							change in Iran.</p>
-					</div>
-					<div class="work-group">
-						<h3>Data Analyst and Research Assistant</h3>
-						<h4>Sauder School of Business, UBC, Vancouver, Canada</h4>
-						<span>2018/12 - 2020/10</span>
-						<p>• Prepared, analyzed, and visualized data for inventory routing by
-							a total cost reduction of about 20%.</p>
-						<p>• Created a multi-level mathematical program in maritime
-							transportation infrastructures for adaptation to climate change.</p>
-					</div>
-					<div class="work-group">
-						<h3>Research Assistant</h3>
-						<h4>Sharif University of Technology, Iran</h4>
-						<span>2016/09 - 2018/11</span>
-						<p>• Used GAMS for Optimization and developed a decision-making
-							model to optimize the flow of water entering Urmia Lake by 10%.</p>
-					</div>
-					<div class="work-group">
-						<h3>Transportation Engineer</h3>
-						<h4>Rahbord Taradod Farda Consulting Company, Iran</h4>
-						<span>2013/03 - 2016/08</span>
-						<p>• Designed, collected, cleaned, and analyzed relational
-							databases with different layers and hundreds of thousands of
-							observations for transportation surveys. </p>
-						<p>• Participated in the data quality improvement and data
-							processing with R for Tehran transportation big data.</p>
-					</div>
-					<div class="work-group">
-						<h3>Self-Studies</h3>
-						<span>2021/07 - 2022/05</span>
-						<p>• Used R for exploratory data analysis on the Cyclistic
-							bike sharing in a case study of Google Data Analytics course</p>
-						<p>• Created interactive dashboards using Tableau after data
-							processing by SQL in Fifa World Cup database.</p>
-						<p>• Used Python’s Numpy, Pandas, Matplotlib, and Seaborn
-							libraries for analyzing and visualizing Kaggle’s Netflix Movies
-							and TV Shows data by writing robust code.</p>
-						<p>•	Analyzed Superstore profit using parameters, trend lines,
-							reference lines, and regressions by combination of R and Tableau.</p>
-					</div>
-				</div>
-				<div class="education">
-					<h1><span><i class="fas fa-book"></i> </span>Education</h1>
-					<div class="edu-group">
-						<h4>Galimatias Oy, Helsinki</h4>
-						<span>2021 - 2022</span>
-						<p>Finnish language, culture and society</p>
-					</div>
-					<div class="edu-group">
-						<h4>Sharif University of Technology, Iran</h4>
-						<span>2011 - 2013</span>
-						<p>M.Sc. in Transportation Planning</p>
-					</div>
-					<div class="edu-group">
-						<h4>Iran University of Science and Technology, Iran</h4>
-						<span>2006 - 2011</span>
-						<p>B.Sc. in Civil Engineering</p>
-					</div>
-				</div>
-			</div>
-		</div>
+<div class="scroll-control">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
 </div>
 
-	<button>Print CV</button>
+<section class="scroll s-one" data-section-name="s-one">
 
-	<!-- JavaScript -->
-	<script src="all.min.js"></script>
-	<script>
-		var btn = document.querySelector("button");
-		btn.onclick = () =>{
-			window.print();
-		}
-	</script>
+
+    <div class="print-area">
+        <div class="header">
+            <img src="pic.jpg">
+            <div class="header-text">
+                <h1>Hamed Davoudabadi</h1>
+                <p>Trainee in Software Developing and AWS Certified Cloud Practitioner</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h4>Contact Info</h4>
+                    <h5><i class="fa fa-phone" aria-hidden="true"></i><span>+358 504687481</span></h5>
+                    <p></p>
+                    <h5><i class="fa fa-envelope" aria-hidden="true"></i><span>h.davoudy@gmail.com</span></h5>
+                    <p></p>
+                    <h5><i class="fa fa-location-arrow" aria-hidden="true"></i><span>Espoo, Finland</span></h5>
+                    <p></p>
+                </div>
+                <div class="certificates">
+                    <h1>Certificates</h1>
+                    <ul>
+                        <li>
+                            <div onclick="myFunc()">AWS Certified Cloud Practitioner</div>
+                            <script src="code.js"></script>
+                        </li>
+                        <li>
+                            <div onclick="google()">Google Data Analytics Professional</div>
+                            <script src="code.js"></script>
+                        </li>
+                        <li>
+                            <div onclick="Tableau()">Data Visualization with Tableau</div>
+                            <script src="code.js"></script>
+                        </li>
+                        <li>
+                            <div onclick="sql()">SQL for Data Science</div>
+                            <script async src="code.js"></script>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="skills">
+                    <h1>Technical Skills</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>Python</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>HTML/CSS</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>JavaScript</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>AWS</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>SQL</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Tabeau</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow">
+                    <h1>Follow Me</h1>
+                    <h4><span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <a href="https://www.linkedin.com/in/hamed-davoudabadi-a5613453/"
+                           class="social-icon si-rounded si-small si-linkedin">Linkedin</a></h4>
+                    <p></p>
+                    <h4><i class="fa fa-github" aria-hidden="true"></i>
+                        <a href="https://github.com/hameddavoudabadi">Github</a></h4>
+                    <p></p>
+                </div>
+                <div class="skill2">
+                    <h1>Skills</h1>
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>Relational Databases</li>
+                        <li>Statistical Modeling</li>
+                        <li>Analytical Thinking</li>
+                        <li>Data Processing</li>
+                        <li>Data Visualization</li>
+                        <li>Troubleshooting</li>
+                        <li>Teamworking</li>
+                        <li>Curiosity and Creativity</li>
+                        <li>Maintaining Confidentiality</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>English: Fluent</li>
+                        <li>Finnish: Basic</li>
+                        <li>Persian: Native</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="fa fa-user-circle-o" aria-hidden="true"></i> </span>About Me</h1>
+                    <p>I have more than 10 years of experiences in transportation planning, and
+                        data analyst fields. Most of my responsibilities were related to a
+                        combination of modeling, optimizing, and planning. I was involved in data
+                        collection, data processing, statistical data analysis for finding
+                        patterns and trends, drawing conclusions, and planning for the future. </p>
+                </div>
+                <div class="work">
+                    <h1><span><i class="fa fa-suitcase" aria-hidden="true"></i> </span>Work Exprience</h1>
+                    <div class="work-group">
+                        <h3>Software Developer Trainee</h3>
+                        <h4>Solibri Oy, Helsinki, Finland</h4>
+                        <span>2022/06 - Present</span>
+                        <p>Achieving the skills and capabilities to be able to do the development
+                            and being able to maintain software, and participating in its planning and
+                            documentation.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Data Analyst and Research Assistant</h3>
+                        <h4>Sharif University of Technology, Iran</h4>
+                        <span>2020/11 - 2021/06</span>
+                        <p>• Worked with NASA’s big dataset to extract information, and discover
+                            formats and patterns of daily climatic historical variables with
+                            millions of rows by using R.</p>
+                        <p>• Converted data into actionable insights by predicting and modeling
+                            future outcomes for cities vulnerable to the adverse impacts of climate
+                            change in Iran.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Data Analyst and Research Assistant</h3>
+                        <h4>Sauder School of Business, UBC, Vancouver, Canada</h4>
+                        <span>2018/12 - 2020/10</span>
+                        <p>• Prepared, analyzed, and visualized data for inventory routing by
+                            a total cost reduction of about 20%.</p>
+                        <p>• Created a multi-level mathematical program in maritime
+                            transportation infrastructures for adaptation to climate change.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Research Assistant</h3>
+                        <h4>Sharif University of Technology, Iran</h4>
+                        <span>2016/09 - 2018/11</span>
+                        <p>• Used GAMS for Optimization and developed a decision-making
+                            model to optimize the flow of water entering Urmia Lake by 10%.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Transportation Engineer</h3>
+                        <h4>Rahbord Taradod Farda Consulting Company, Iran</h4>
+                        <span>2013/03 - 2016/08</span>
+                        <p>• Designed, collected, cleaned, and analyzed relational
+                            databases with different layers and hundreds of thousands of
+                            observations for transportation surveys. </p>
+                        <p>• Participated in the data quality improvement and data
+                            processing with R for Tehran transportation big data.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Self-Studies</h3>
+                        <span>2021/07 - 2022/05</span>
+                        <p>• Used R for exploratory data analysis on the Cyclistic
+                            bike sharing in a case study of Google Data Analytics course</p>
+                        <p>• Created interactive dashboards using Tableau after data
+                            processing by SQL in Fifa World Cup database.</p>
+                        <p>• Used Python’s Numpy, Pandas, Matplotlib, and Seaborn
+                            libraries for analyzing and visualizing Kaggle’s Netflix Movies
+                            and TV Shows data by writing robust code.</p>
+                        <p>• Analyzed Superstore profit using parameters, trend lines,
+                            reference lines, and regressions by combination of R and Tableau.</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <h1><span><i class="fa fa-graduation-cap" aria-hidden="true"></i> </span>Education</h1>
+                    <div class="edu-group">
+                        <h4>Galimatias Oy, Helsinki</h4>
+                        <span>2021 - 2022</span>
+                        <p>Finnish language, culture and society</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>Sharif University of Technology, Iran</h4>
+                        <span>2011 - 2013</span>
+                        <p>M.Sc. in Transportation Planning</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>Iran University of Science and Technology, Iran</h4>
+                        <span>2006 - 2011</span>
+                        <p>B.Sc. in Civil Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="all.min.js"></script>  -->
+    <!-- print button --
+  <button class="btn" id="btn">Print CV</button>
+  <script>
+    var btn = document.querySelector("button");
+    btn.onclick = () => {
+      window.print();
+    }
+  </script>  -->
+
+
+</section>
+
+<section class="scroll s-two" data-section-name="s-two">
+    <h2 class="skill-header">More About Me</h2>
+
+
+    <div class="footer">
+        <div class="footer_left">
+            <div class="footer_github" id="showCount">
+                <!-- Github card  -->
+                <div class="github-card" data-github="hameddavoudabadi"
+                     data-theme="medium">
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </div>
+            </div>
+            <button id="but" class="but">Github</button>
+
+            <span id="display"></span>
+            <script>                     // here //
+            var count = 0;
+            var but = document.getElementById("but");
+            var disp = document.getElementById("display");
+
+            but.onclick = function () {
+                count++;
+                disp.innerHTML = count;
+                num_in_disp = count;
+                console.log("this is: ", disp);
+                console.log("this is: ", num_in_disp);
+                localStorage.setItem("count_click", disp.innerHTML);
+            }
+            </script>
+        </div>
+
+        <div class="footer_right">
+            <div class="footer_notion" id="not_showCount">
+                <!-- Notion card  -->
+                <iframe src="https://v1.embednotion.com/embed/d858d0adf1a048658711bb9300ec964e"></iframe>
+                <style>  iframe {
+                    width: 500px;
+                    height: 500px;
+                    border: 2px solid #ccc;
+                    border-radius: 10px;
+                    padding: none;
+                }  </style>
+            </div>
+            <button id="not_but" class="not_but">Notion</button>
+
+            <span id="not_display"></span>
+            <script>                     // here //
+            var not_count = 0;
+            var not_but = document.getElementById("not_but");
+            var not_disp = document.getElementById("not_display");
+
+            not_but.onclick = function () {
+                not_count++;
+                not_disp.innerHTML = not_count;
+                not_count_click = not_count;
+                console.log("this is: ", not_disp);
+                console.log("this is: ", not_count_click);
+                localStorage.setItem("not_count_click", not_disp.innerHTML);
+            }
+            </script>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<script>
+    //gettting the values
+    //	window.localStorage.setItem("count_click", JSON.stringify(num_in_disp))
+    //	window.localStorage.setItem("not_count_click", JSON.stringify(not_count_click))
+
+
+    //window.onload = function() {
+    //	var getInput = prompt("Hey type something here: ", '2');
+    //	localStorage.setItem("storageName",getInput);
+    //}
+
+    //const btn = document.getElementById('btn')
+
+    //	btn.addEventListener('submit', function (e) {
+    //		e.preventDefault();
+    //	}
+
+    //		const count_value = count_click.value();
+    //	localStorage.setItem('count-value', count_value);
+    //})
+    //sessionStorage.setItem(yclick, count);
+    //console.log(yclick)
+
+</script>
+
+<!-- <br>
+<br>
+<hr class="line"> -->
+
+<section class="scroll s-three" data-section-name="s-three">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img
+                    src="./images/tf1.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+                    sizes=""
+            />
+            <img
+                    src="./images/react1.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="./images/git 1.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+            <img
+                    src="./images/pyspark4.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="./images/js1.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="./images/aws.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+        </div>
+
+        <div class="third-set animate__animated animate__pulse">
+            <img
+                    src="./images/tableau2.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="./images/python5.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="./images/sql4.png"
+                    alt=""
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+        </div>
+    </div>
+</section>
+
+<section class="scroll s-four" data-section-name="s-four">
+    <h2 class="skill-header">Some of my Recent Projects</h2>
+    <!--  <div class="links">
+       <a class="data" href="https://quiet-froyo-583386.netlify.app/">Fetch JSON by React</a>
+       <a class="app" href="./api_react/src/api_react.html">React Counter App</a>
+       <a class="stats" href="./next.html">Stats</a>
+       <a class="lambda" href=".html">Lambda Function</a>
+       <a class="terraform" href=".html">Terraform module on Github</a>
+       <a class="eventbridge" href=".html">EventBridge</a>
+       <a class="pyspark" href=".html">Data Analysis by PySpark</a>
+       <a class="python" href=".html">Data Analysis by Python</a>
+       <a class="AWS Glue" href=".html">Glue Job Deployment</a>
+     </div>  -->
+
+
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img src="./images/glue1.webp" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Deploying a Glue Job by Terraform</h3>
+            <p class="project-details">
+                Creating a S3 bucket, AWS Crawler and Glue Job and setting a trigger for crawling and running the job while uploading a dataset to the S3 bucket automatically by Terraform.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img src="./images/react4.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">React Counter App</h3>
+            <p class="project-details">
+                Using React JS for creating an app which is able to count number of times Github and Notion buttons are being clicked.
+            </p>
+            <br>
+            <a href="./api_react/src/api_react.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img src="./images/pyspark.jpeg" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Data Analysis by PySpark</h3>
+            <p class="project-details">
+                Exploratory Data Analysis & Booking Cancellation Prediction on Hotel Booking Demands Datasets by PySpark.
+            </p>
+            <br>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img src="./images/git3.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Terraform module on Github</h3>
+            <p class="project-details">
+                Maintaining Reusable Terraform modules in GitHub.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img src="./images/python3.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Data Analysis by Python</h3>
+            <p class="project-details">
+                Exploratory Data Analysis & Booking Cancellation Prediction on Hotel Booking Demands Datasets using Python.
+            </p>
+            <br>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img src="./images/netlify.jpg" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Fetch JSON by React</h3>
+            <p class="project-details">
+                Fetching a JSON dataset using React JS and exporting the app into the Netlify for hosting.
+            </p>
+            <a href="https://quiet-froyo-583386.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="scroll s-five" data-section-name="s-five">
+    <h2 class="skill-header">Other Interests</h2>
+    <div class="three-col">
+        <div class="first_col">
+            <p> Having competitions with my colleagues <br>
+                in throwing axes! </p>
+            <video class="ax" width="360" playsinline controls>
+                <source src="./images/ax.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="second_col">
+            <p> Watching football! </p>
+            <img class="foosball" src="./images/foot2.jpg" width="765" height="655">
+        </div>
+        <div class="third_col">
+            <p> Watching football! </p>
+            <img class="football" src="./images/foot3.jpg" width="390" height="597">
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
+        integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        screenCheck();
+
+        $('.scroll-control .one').click(function () {
+            $.scrollify.move('#s-one');
+        });
+        $('.scroll-control .two').click(function () {
+            $.scrollify.move('#s-two');
+        });
+        $('.scroll-control .three').click(function () {
+            $.scrollify.move('#s-three');
+        });
+        $('.scroll-control .four').click(function () {
+            $.scrollify.move('#s-four');
+        });
+        $('.scroll-control .five').click(function () {
+            $.scrollify.move('#s-five');
+        });
+    });
+
+    $(window).on('resize', function () {
+        screenCheck();
+    });
+
+    function applyScroll() {
+        $.scrollify({
+            section: '.scroll',
+            sectionName: 'section-name',
+            //standardScrol     lElements: 'section',
+            easing: 'easeOutExpo',
+            scrollSpeed: 1100,
+            offset: 0,
+            scrollbars: true,
+            setHeights: true,
+            overflowScroll: true,
+            updateHash: false,
+            touchScroll: true,
+        });
+    }
+
+    function screenCheck() {
+        var deviceAgent = navigator.userAgent.toLowerCase();
+        var agentID = deviceAgent.match(/(iphone|ipod|ipad)/);
+        if (agentID || $(window).width() <= 1024) {
+            // its mobile screen
+            $.scrollify.destroy();
+            $('section').removeClass('scroll').removeAttr('style');
+            $.scrollify.disable();
+        } else {
+            // its desktop
+            $('section').addClass('scroll');
+            applyScroll();
+            $.scrollify.enable();
+        }
+    }
+</script>
 
 </body>
 </html>
+
+
