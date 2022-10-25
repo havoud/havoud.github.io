@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamed's Portfolio</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <!-- CSS  -->
     <!-- Using Font Awesome for Uploading Linkedin and Github logos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -427,20 +427,11 @@
 
     <div class="projects-container">
         <div class="project-container project-card">
-            <img src="./images/glue1.webp" alt="expense-tracker" loading="lazy" class="project-pic"/>
-            <h3 class="project-title">Deploying a Glue Job by Terraform</h3>
-            <p class="project-details">
-                Creating a S3 bucket, AWS Crawler and Glue Job and setting a trigger for crawling and running the job while uploading a dataset to the S3 bucket automatically by Terraform.
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
             <img src="./images/react4.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
             <h3 class="project-title">React Counter App</h3>
             <p class="project-details">
                 Using React JS for creating an app which is able to count number of times Github and Notion buttons are being clicked.
             </p>
-            <br>
             <a href="./api_react/src/api_react.html" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
@@ -449,7 +440,14 @@
             <p class="project-details">
                 Exploratory Data Analysis & Booking Cancellation Prediction on Hotel Booking Demands Datasets by PySpark.
             </p>
-            <br>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img src="./images/glue1.webp" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Deploying a Glue Job by Terraform</h3>
+            <p class="project-details">
+                Creating a S3 bucket, AWS Crawler and Glue Job and setting a trigger for crawling and running the job while uploading a dataset to the S3 bucket automatically by Terraform.
+            </p>
             <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
     </div>
@@ -464,15 +462,6 @@
             <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
-            <img src="./images/python3.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
-            <h3 class="project-title">Data Analysis by Python</h3>
-            <p class="project-details">
-                Exploratory Data Analysis & Booking Cancellation Prediction on Hotel Booking Demands Datasets using Python.
-            </p>
-            <br>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
             <img src="./images/netlify.jpg" alt="expense-tracker" loading="lazy" class="project-pic"/>
             <h3 class="project-title">Fetch JSON by React</h3>
             <p class="project-details">
@@ -480,30 +469,47 @@
             </p>
             <a href="https://quiet-froyo-583386.netlify.app/" target="_blank" class="project-link">Check it Out</a>
         </div>
+        <div class="project-container project-card">
+            <img src="./images/python3.png" alt="expense-tracker" loading="lazy" class="project-pic"/>
+            <h3 class="project-title">Data Analysis by Python</h3>
+            <p class="project-details">
+                Exploratory Data Analysis & Booking Cancellation Prediction on Hotel Booking Demands Datasets using Python.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
     </div>
 
 </section>
 
 <section class="scroll s-five" data-section-name="s-five">
     <h2 class="skill-header">Other Interests</h2>
+    <ul>
+        <li>Having competitions with my colleagues in throwing axes!</li>
+        <li>I enjoy communicating with my colleagues, either be learning programming, talking or playing!</li>
+        <li>Watching football!</li>
+    </ul>
     <div class="three-col">
         <div class="first_col">
-            <p> Having competitions with my colleagues <br>
-                in throwing axes! </p>
+
             <video class="ax" width="360" playsinline controls>
                 <source src="./images/ax.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <div class="second_col">
-            <p> Watching football! </p>
-            <img class="foosball" src="./images/foot2.jpg" width="765" height="655">
+
+            <img class="foosball" src="./images/foot2.jpg" width="510" height="437">
         </div>
         <div class="third_col">
-            <p> Watching football! </p>
-            <img class="football" src="./images/foot3.jpg" width="390" height="597">
+            <img class="football" src="./images/foot3.jpg" width="260" height="398">
         </div>
     </div>
+<br>
+    <br>
+    <p class="copy">
+        <br>
+        Built with HTML, CSS and JavaScript, by Hamed Davoudabadi
+    </p>
 </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
@@ -572,7 +578,9 @@
         }
     }
 </script>
+<footer>
 
+</footer>
 </body>
 </html>
 

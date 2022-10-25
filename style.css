@@ -574,6 +574,7 @@
 .s-five {
     margin: auto;
     text-align: center;
+
 }
 
 .skill-header {
@@ -606,14 +607,21 @@
 
 .s-five p {
     line-height: var(--line-height);
-    padding-top: 3rem;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     color: #10375c;
 }
+.s-five ul{
+    color: #282c34;
+    font-weight: bolder;
+    padding-top: 3%;
+    list-style-type: square;
+    text-align: left;
+    padding-left: 22%;
+}
 .ax{
-    width: 360px;
-    height: 640px;
+    width: 240px;
+    height: 427px;
     float: left;
 }
 
@@ -690,6 +698,14 @@
 }
 .s-four{
     height: 122222px;
+}
+
+.s-five p.copy {
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    color: black;
+    font-size: 13px;
 }
 
 @media print {
