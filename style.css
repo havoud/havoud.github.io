@@ -8,7 +8,7 @@
 
 .s-two {
     color: #fff;
-    background-color: rgb(52, 116, 84);
+    background-color:  #628078;
 }
 .s-three {
     color: #fff;
@@ -16,12 +16,12 @@
 }
 .s-four {
     color: #fff;
-    background-color: skyblue;
+    background-color: #acb7ae;
     height: 150%;
 }
 .s-five {
     color: #fff;
-    background-color: lightcoral;
+    background-color: #61dafb;
 }
 .scroll-control {
     position: fixed;
@@ -641,7 +641,7 @@
 
 /* s-two -> Projects */
 .s-four {
-    background-color: #61dafb;
+    background-color: #acb7ae;
     padding: 32px 0;
     margin-top: 2rem;
 }
@@ -705,7 +705,7 @@
     text-align: center;
     margin: 2rem 0 0;
     color: black;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 @media print {
