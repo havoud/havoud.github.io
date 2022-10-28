@@ -638,6 +638,9 @@
 .third_col p{
     margin-left: 25%;
 }
+.third_col p{
+    margin-top: 20%;
+}
 
 /* s-two -> Projects */
 .s-four {
