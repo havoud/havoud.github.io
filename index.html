@@ -34,7 +34,7 @@
             <img src="hdd1.jpg">
             <div class="header-text">
                 <h1>Hamed Davoudabadi</h1>
-                <p>Trainee in Software Developing and AWS Certified Cloud Practitioner</p>
+                <p>Junior Software Developer and AWS Certified Cloud Practitioner</p>
             </div>
         </div>
         <div class="content">
@@ -56,6 +56,11 @@
                             <script src="code.js"></script>
                         </li>
                         <li>
+                            <div onclick="architect()">AWS Certified Solutions Architect Associate (Linkedin Course)</div>
+                            <script src="code.js"></script>
+                        </li>
+
+                        <li>
                             <div onclick="google()">Google Data Analytics Professional</div>
                             <script src="code.js"></script>
                         </li>
@@ -74,28 +79,60 @@
                     <h1>Technical Skills</h1>
                     <div class="bars">
                         <div class="bar">
-                            <p>Python</p>
-                            <span></span>
+                            <p>AWS</p>
+                            <span class="bar_aws"></span>
                         </div>
                         <div class="bar">
-                            <p>HTML/CSS</p>
-                            <span></span>
+                            <p>Terraform</p>
+                            <span class="bar_terraform"></span>
                         </div>
                         <div class="bar">
                             <p>JavaScript</p>
-                            <span></span>
+                            <span class="bar_java"></span>
                         </div>
                         <div class="bar">
-                            <p>AWS</p>
-                            <span></span>
+                            <p>React</p>
+                            <span class="bar_react"></span>
+                        </div>
+                        <div class="bar">
+                            <p>HTML/CSS</p>
+                            <span class="bar_html"></span>
+                        </div>
+                        <div class="bar">
+                            <p>Python</p>
+                            <span class="bar_python"></span>
                         </div>
                         <div class="bar">
                             <p>SQL</p>
-                            <span></span>
+                            <span class="bar_sql"></span>
+                        </div>
+                        <div class="bar">
+                            <p>PySpark</p>
+                            <span class="bar_pyspark"></span>
+                        </div>
+                        <div class="bar">
+                            <p>Git</p>
+                            <span class="bar_git"></span>
+                        </div>
+                        <div class="bar">
+                            <p>R</p>
+                            <span class="bar_r"></span>
                         </div>
                         <div class="bar">
                             <p>Tabeau</p>
-                            <span></span>
+                            <span class="bar_tableau"></span>
+                        </div>
+                        <div class="bar">
+                            <p>LaTeX</p>
+                            <span class="bar_latex"></span>
+                        </div>
+                        <div class="bar">
+                            <p>GraphQL</p>
+                            <span class="bar_graphql"></span>
+                        </div>
+                        <div class="bar">
+                            <p>Azure</p>
+                            <span class="bar_azure"></span>
                         </div>
                     </div>
                 </div>
@@ -110,18 +147,19 @@
                     <p></p>
                 </div>
                 <div class="skill2">
-                    <h1>Skills</h1>
+                    <h1>Soft Skills</h1>
                     <ul>
-                        <li>Data Analysis</li>
-                        <li>Relational Databases</li>
+                        <li>Responsible and Diligent</li>
+                        <li>Adaptability</li>
                         <li>Statistical Modeling</li>
                         <li>Analytical Thinking</li>
-                        <li>Data Processing</li>
-                        <li>Data Visualization</li>
+                        <li>Fast Learning</li>
                         <li>Troubleshooting</li>
+                        <li>Team Working</li>
                         <li>Teamworking</li>
                         <li>Curiosity and Creativity</li>
                         <li>Maintaining Confidentiality</li>
+                        <li>Time Management</li>
                     </ul>
                 </div>
                 <div class="languages">
@@ -138,11 +176,9 @@
             <div class="right-area">
                 <div class="about">
                     <h1><span><i class="fa fa-user-circle-o" aria-hidden="true"></i> </span>About Me</h1>
-                    <p>I have more than 10 years of experiences in transportation planning, and
-                        data analyst fields. Most of my responsibilities were related to a
-                        combination of modeling, optimizing, and planning. I was involved in data
-                        collection, data processing, statistical data analysis for finding
-                        patterns and trends, drawing conclusions, and planning for the future. </p>
+                    <p>I am an enthusiastic software engineering professional, with experience in data analytics, including data collection,
+                        processing, as well as statistical analysis. Currently, I am focusing on learning even more about AWS services, and
+                        looking to gain experience in development projects and JavaScript programming. </p>
                 </div>
                 <div class="work">
                     <h1><span><i class="fa fa-suitcase" aria-hidden="true"></i> </span>Work Exprience</h1>
@@ -150,59 +186,56 @@
                         <h3>Software Developer Trainee</h3>
                         <h4>Solibri Oy, Helsinki, Finland</h4>
                         <span>2022/06 - Present</span>
-                        <p>Achieving the skills and capabilities to be able to do the development
-                            and being able to maintain software, and participating in its planning and
-                            documentation.</p>
+                        <p>During my internship at Solibri, I learned and contributed to: </p>
+                        <p>• AWS services and their use in development projects </p>
+                        <p>• Data Engineering within the AWS ecosystem </p>
+                        <p>• Data Pipeline and Data Lake project planning and involvement </p>
+                        <p>• Terraform for AWS, such as in deploying Lambda Functions and Glue ETL Jobs </p>
+                        <p>• Creating mindmaps and guidance insights for different AWS services </p>
+                        <p>• Javascript development projects </p>
+                        <p>• Agile Software Engineering practices, including Scrum </p>
+
                     </div>
                     <div class="work-group">
                         <h3>Data Analyst and Research Assistant</h3>
                         <h4>Sharif University of Technology, Iran</h4>
-                        <span>2020/11 - 2021/06</span>
-                        <p>• Worked with NASA’s big dataset to extract information, and discover
-                            formats and patterns of daily climatic historical variables with
-                            millions of rows by using R.</p>
-                        <p>• Converted data into actionable insights by predicting and modeling
-                            future outcomes for cities vulnerable to the adverse impacts of climate
-                            change in Iran.</p>
+                        <span>2020/11 - 2021/02</span>
+                        <p>• Worked with Nasa’s bigdata to extract information, discovered formats and patterns of daily climatic historical
+                            variables with millions of rows by using Python.</p>
+                        <p>• Converted data into actionable insights by predicting and modeling future outcomes cities vulnerable to the
+                            adverse impacts of climate change in Iran.</p>
                     </div>
                     <div class="work-group">
-                        <h3>Data Analyst and Research Assistant</h3>
+                        <h3>Data Analyst</h3>
                         <h4>Sauder School of Business, UBC, Vancouver, Canada</h4>
                         <span>2018/12 - 2020/10</span>
-                        <p>• Prepared, analyzed, and visualized data for inventory routing by
-                            a total cost reduction of about 20%.</p>
-                        <p>• Created a multi-level mathematical program in maritime
-                            transportation infrastructures for adaptation to climate change.</p>
+                        <p>• Prepared, analyzed, and visualized data for inventory routing.</p>
+                        <p>• Created a multi-level mathematical program in maritime transportation
+                            infrastructures for adaptation to climate change.</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Technical Programmer</h3>
+                        <h4>Sharif University of Technology, Iran</h4>
+                        <span>2016/09 - 2018/11</span>
+                        <p>• R for statistical modeling and developed a decision-making model to optimize the flow of water entering
+                            Urmia Lake by 10%.</p>
                     </div>
                     <div class="work-group">
                         <h3>Research Assistant</h3>
-                        <h4>Sharif University of Technology, Iran</h4>
-                        <span>2016/09 - 2018/11</span>
-                        <p>• Used GAMS for Optimization and developed a decision-making
-                            model to optimize the flow of water entering Urmia Lake by 10%.</p>
-                    </div>
-                    <div class="work-group">
-                        <h3>Transportation Engineer</h3>
                         <h4>Rahbord Taradod Farda Consulting Company, Iran</h4>
                         <span>2013/03 - 2016/08</span>
-                        <p>• Designed, collected, cleaned, and analyzed relational
-                            databases with different layers and hundreds of thousands of
-                            observations for transportation surveys. </p>
-                        <p>• Participated in the data quality improvement and data
-                            processing with R for Tehran transportation big data.</p>
+                        <p>• Designed, collected, cleaned, and analyzed relational databases with different layers and hundreds of thousands
+                            of observations for transportation surveys. </p>
+                        <p>• Participated in the data quality improvement and data analysis for Tehran transportation projects.</p>
                     </div>
                     <div class="work-group">
                         <h3>Self-Studies</h3>
                         <span>2021/07 - 2022/05</span>
-                        <p>• Used R for exploratory data analysis on the Cyclistic
-                            bike sharing in a case study of Google Data Analytics course</p>
-                        <p>• Created interactive dashboards using Tableau after data
-                            processing by SQL in Fifa World Cup database.</p>
-                        <p>• Used Python’s Numpy, Pandas, Matplotlib, and Seaborn
-                            libraries for analyzing and visualizing Kaggle’s Netflix Movies
-                            and TV Shows data by writing robust code.</p>
-                        <p>• Analyzed Superstore profit using parameters, trend lines,
-                            reference lines, and regressions by combination of R and Tableau.</p>
+                        <p>• Used Python for exploratory data analysis on the Cyclistic bike sharing in a case study of Google Data Analytics course.</p>
+                        <p>• Created interactive dashboards using Tableau after data processing by SQL in Fifa World Cup database.</p>
+                        <p>• Used Python’s Numpy, Pandas, Matplotlib, and Seaborn libraries for analyzing and visualizing Kaggle’s Netflix
+                            Movies and TV Shows data by writing robust code.</p>
+                        <p>• Analyzed Superstore profit using parameters, trend lines, reference lines, and regressions by combination of R and Tableau.</p>
                     </div>
                 </div>
                 <div class="education">
@@ -210,12 +243,12 @@
                     <div class="edu-group">
                         <h4>Galimatias Oy, Helsinki</h4>
                         <span>2021 - 2022</span>
-                        <p>Finnish language, culture and society</p>
+                        <p>Finnish language, Culture and Society</p>
                     </div>
                     <div class="edu-group">
                         <h4>Sharif University of Technology, Iran</h4>
                         <span>2011 - 2013</span>
-                        <p>M.Sc. in Transportation Planning</p>
+                        <p>M.Sc. in Civil Engineering</p>
                     </div>
                     <div class="edu-group">
                         <h4>Iran University of Science and Technology, Iran</h4>
