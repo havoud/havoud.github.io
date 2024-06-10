@@ -4,7 +4,12 @@ function myFunc(){
     inc=inc+1;
     alert(inc);
 }
-
+function talentgate(){
+    window.open('images/Talentgate.pdf')
+}
+function python(){
+    window.open('https://www.credly.com/badges/1ae91be1-f534-4922-ac93-5239e9e8bba9?source=linked_in_profile')
+}
 function architect(){
     window.open('https://www.linkedin.com/learning/certificates/024f93172e394f0d18a6209c8da2f1918314f96fcdd7100ea6d09cf79a3f8d58?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bj4u0D6ICTrOvJTv%2FuEP1ug%3D%3D&accountId=92408722&u=92408722&success=true&authUUID=Ncv9ATQ9RUmeGHmUQ7YAlQ%3D%3D','AWS Certified Solutions Architect Associate','width=600,height=400')
 }
