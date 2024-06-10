@@ -816,27 +816,9 @@
     text-align: center;
 }
 .project-pic {
-    width: 65%;
-    height: 60%;
+    width: 40%;
 }
-.project-pic1 {
-    width: 48%;
-}
-.project-pic2 {
-    width: 33%;
-}
-.project-pic3 {
-    width: 32%;
-}
-.project-pic4 {
-    width: 91%;
-}
-.project-pic6 {
-    width: 50%;
-}
-.project-pic7 {
-    width: 65%;
-}
+
 
 .projects-container {
     display: flex;
